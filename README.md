@@ -14,10 +14,6 @@ This project is a local LLM-powered code review system designed to provide perso
 
 Unlike conventional tools, it incorporates a persistent memory mechanism using a vector database (ChromaDB). Each review session is embedded and stored, enabling the system to retrieve semantically similar past interactions using cosine similarity. This allows the model to identify recurring patterns in coding mistakes and provide more tailored feedback over time.
 
-## Demo
-
-![Demo](demo.gif)
-
 ## Architecture
 
 ```
