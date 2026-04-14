@@ -96,7 +96,7 @@ ai-coding-mentor/
 
 ```bash
 # 1. Clone
-git clone https://github.com/preksha-g09/ai-coding-mentor
+git clone https://github.com/prekshagirish/ai-coding-mentor
 cd ai-coding-mentor
 
 # 2. Install Llama 3.1
