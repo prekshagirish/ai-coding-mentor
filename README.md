@@ -8,13 +8,11 @@
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-vector--db-purple?style=flat-square)
 ![Llama](https://img.shields.io/badge/Llama_3.1-8B_local-red?style=flat-square)
 
-## What makes this different
+## Overview
 
-Most AI code tools forget you the moment you close the tab.
+This project is a local LLM-powered code review system designed to provide personalized and context-aware feedback.
 
-This one remembers. Every session is embedded and stored in a local vector database (ChromaDB). Before reviewing new code, it retrieves your most semantically similar past mistakes using cosine similarity search — so if you keep making the same error handling mistakes, it will call you out every single time.
-
-Your code never leaves your machine.
+Unlike conventional tools, it incorporates a persistent memory mechanism using a vector database (ChromaDB). Each review session is embedded and stored, enabling the system to retrieve semantically similar past interactions using cosine similarity. This allows the model to identify recurring patterns in coding mistakes and provide more tailored feedback over time.
 
 ## Demo
 
